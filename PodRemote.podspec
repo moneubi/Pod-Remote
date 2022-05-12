@@ -2,13 +2,13 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '12.0'
+s.ios.deployment_target = '11.0'
 s.name = "PodRemote"
 s.summary = "PodRemote is a core of Mobiwan"
 s.requires_arc = true
 
 # 2
-s.version = "1.0.0"
+s.version = "v3.0.1"
 
 # 3
 # s.license = { :type => "MIT", :file => "LICENSE" }
