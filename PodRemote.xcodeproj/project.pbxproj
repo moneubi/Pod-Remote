@@ -16,6 +16,8 @@
 		E2740F70282D469F001A34C7 /* PodRemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2740F6F282D469F001A34C7 /* PodRemoteTests.swift */; };
 		E2740F7A282D469F001A34C7 /* PodRemoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2740F79282D469F001A34C7 /* PodRemoteUITests.swift */; };
 		E2740F7C282D469F001A34C7 /* PodRemoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2740F7B282D469F001A34C7 /* PodRemoteUITestsLaunchTests.swift */; };
+		E2740FCA282D59A0001A34C7 /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2740FC9282D59A0001A34C7 /* InitViewController.swift */; };
+		E2740FCC282D5A3F001A34C7 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2740FCB282D5A3F001A34C7 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		E2740F75282D469F001A34C7 /* PodRemoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodRemoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2740F79282D469F001A34C7 /* PodRemoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodRemoteUITests.swift; sourceTree = "<group>"; };
 		E2740F7B282D469F001A34C7 /* PodRemoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodRemoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2740FC9282D59A0001A34C7 /* InitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
+		E2740FCB282D5A3F001A34C7 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				E2740F61282D469F001A34C7 /* Assets.xcassets */,
 				E2740F63282D469F001A34C7 /* LaunchScreen.storyboard */,
 				E2740F66282D469F001A34C7 /* Info.plist */,
+				E2740FC9282D59A0001A34C7 /* InitViewController.swift */,
+				E2740FCB282D5A3F001A34C7 /* SecondVC.swift */,
 			);
 			path = PodRemote;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2740F5D282D469D001A34C7 /* Welcome.swift in Sources */,
+				E2740FCC282D5A3F001A34C7 /* SecondVC.swift in Sources */,
 				E2740F59282D469D001A34C7 /* AppDelegate.swift in Sources */,
+				E2740FCA282D59A0001A34C7 /* InitViewController.swift in Sources */,
 				E2740F5B282D469D001A34C7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
