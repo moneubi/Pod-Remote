@@ -8,7 +8,7 @@ s.summary = "PodRemote is a core of Mobiwan"
 s.requires_arc = true
 
 # 2
-s.version = "3.0.5"
+s.version = "3.0.6"
 
 # 3
 # s.license = { :type => "MIT", :file => "LICENSE" }
@@ -25,8 +25,8 @@ s.source = { :git => "https://github.com/moneubi/Pod-Remote.git",
 
 # 8
 s.source_files = "PodRemote"
-s.source_files = "PodRemote/**"
-s.source_files = "PodRemote/**/**"
+s.source_files = "PodRemote/*.{swift}"
+s.source_files = "PodRemote/**/*.{swift}"
 
 # 9
 s.resources = "MobiwanRemote/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,json}"
