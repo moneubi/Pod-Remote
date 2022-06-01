@@ -103,15 +103,13 @@
 		E2740F57282D469D001A34C7 /* PodRemote */ = {
 			isa = PBXGroup;
 			children = (
-				E2740F58282D469D001A34C7 /* AppDelegate.swift */,
-				E2740F5A282D469D001A34C7 /* SceneDelegate.swift */,
-				E2740F5C282D469D001A34C7 /* Welcome.swift */,
+				E2B4B8892847C24F00526F74 /* Utilities */,
+				E2B4B8882847C23F00526F74 /* Config */,
+				E2B4B8872847C1CE00526F74 /* Views */,
 				E2740F5E282D469D001A34C7 /* Main.storyboard */,
 				E2740F61282D469F001A34C7 /* Assets.xcassets */,
 				E2740F63282D469F001A34C7 /* LaunchScreen.storyboard */,
 				E2740F66282D469F001A34C7 /* Info_remote.plist */,
-				E2740FC9282D59A0001A34C7 /* InitViewController.swift */,
-				E2740FCB282D5A3F001A34C7 /* SecondVC.swift */,
 			);
 			path = PodRemote;
 			sourceTree = "<group>";
@@ -131,6 +129,32 @@
 				E2740F7B282D469F001A34C7 /* PodRemoteUITestsLaunchTests.swift */,
 			);
 			path = PodRemoteUITests;
+			sourceTree = "<group>";
+		};
+		E2B4B8872847C1CE00526F74 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2740FCB282D5A3F001A34C7 /* SecondVC.swift */,
+				E2740F5C282D469D001A34C7 /* Welcome.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E2B4B8882847C23F00526F74 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E2740F5A282D469D001A34C7 /* SceneDelegate.swift */,
+				E2740F58282D469D001A34C7 /* AppDelegate.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		E2B4B8892847C24F00526F74 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E2740FC9282D59A0001A34C7 /* InitViewController.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
