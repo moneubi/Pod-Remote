@@ -8,7 +8,7 @@ s.summary = "PodRemote is a core of Mobiwan"
 s.requires_arc = true
 
 # 2
-s.version = "1.0.4"
+s.version = "3.0.5"
 
 # 3
 # s.license = { :type => "MIT", :file => "LICENSE" }
